@@ -2,3 +2,11 @@ gradio
 transformers
 torch
 pillow
+nltk
+scikit-learn
+openai
+faiss-cpu
+speechrecognition
+gtts
+pyttsx3
+python-dotenv
