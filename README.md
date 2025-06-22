@@ -11,6 +11,17 @@ A conversational AI assistant that can understand and discuss images with users.
 - Simple web interface (Gradio)
 - Public sharing link for easy collaboration
 
+## New Features (2025 Update)
+- **Contextual Memory:** Remembers previous messages for more natural, multi-turn conversations.
+- **Suggestions:** Clickable quick-reply buttons help guide the conversation.
+- **Image Handling:** Supports both image Q&A and image text extraction (OCR).
+- **Sentiment Analysis:** Detects user sentiment and adapts responses.
+- **Voice Input/Output:** Ask questions by voice and get spoken answers.
+- **Knowledge Base Integration:** Answers common questions from a built-in knowledge base.
+- **Personalization:** Optionally address users by name.
+- **Error Handling:** Friendly error messages for unrecognized input or issues.
+- **Simple Interface:** Clean, single-question box with easy toggling between text and voice. Advanced options are hidden for a clutter-free experience.
+
 ## Architecture
 ```
 [User Image] → [Image Encoder (CLIP)] → 
@@ -50,6 +61,13 @@ This architecture allows the chatbot to understand and reason about both visual 
 - Upload an image (JPG, PNG, etc.)
 - Type a question (e.g., "What is the person doing in this image?")
 - Receive a detailed, AI-generated response
+
+## How to Use (Quick Guide)
+1. **Upload an image.**
+2. **Choose input mode:** Text or Voice.
+3. **Ask your question** (type or upload voice).
+4. **Click suggestions** for quick follow-ups.
+5. **(Optional)** Use 'More Options' for OCR or to reset the chat.
 
 ## Notes
 - Large models may take time to respond, especially on CPU. For best performance, use a machine with a GPU.
